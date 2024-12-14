@@ -1,0 +1,53 @@
+body{
+    overflow-x: hidden;
+
+}
+
+
+.box{
+background-color: red;
+height: 20rem;
+width: 50%;
+}
+.box2 {
+    background-color: rgb(241, 242, 247);
+    height: 20rem;
+    width: 50%;
+}
+.box-child1,.box-child2{
+    background-color: aqua;
+    height: 5rem;
+}
+.box-child1{
+    width: 100%;
+    background-color: orange;
+}
+.box-child2{
+    width: 100vw;
+    background-color: rgb(0, 235, 51);
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.full {
+    width: 100vw;
+    position: relative;
+    left:calc(((100vw - 500px)/2) * -1);
+
+}
+.full img{
+    width: 100%;
+}
+@media screen and (max-width:768px){
+    .full {
+        width: 100vw;
+        position: relative;
+        left:calc(((100vw - 500px)/2)*-1);
+    
+    }
+    .full img{
+        width: 100%;
+    }
+    
+}

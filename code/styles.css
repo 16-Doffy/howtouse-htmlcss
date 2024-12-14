@@ -1,0 +1,60 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h2{
+    color: red;
+    font-size: 5rem;
+}
+.title{
+    color: blue;
+    font-size: 4rem;
+}
+.demo {
+    color: red;
+
+}
+/* + nằm liền kề ex: demo + title*/
+.title + .demo {
+    color: red;
+}
+/* ~ nằm cách nhau k ex: demo + ? + demo*/
+.title ~ .demo {
+    color: red;
+}
+.list >li:first-child{
+    color: aqua;
+    font-size: 10px;
+}
+.list >li:last-child{
+    color: rgb(1, 34, 34);
+    font-size: 10px;
+}
+.list >li:nth-child(2){
+    color: rgb(218, 255, 7);
+    font-size: 10px;
+}
+/* :last-of-type có nhiều thẻ p nhưng muốn trỏ tới thẻ vị trí thứ 1*/
+.list2 >li:last-of-type{
+    color: rgb(218, 255, 7);
+    font-size: 10px;
+}
+/* :tương tự như nth:first-last child*/
+.list2 >li:nth-of-type(2){
+    color: rgb(218, 255, 7);
+    font-size: 10px;
+}
+
+/* -----------chọn tất cả thẻ----------*/
+/* the div bắt đầu = cursor:pointer (^)*/
+div[style^="cursor: pointer"]{
+    color: green;
+}
+
+/* the div kết thúc = cursor:pointer ($)*/
+div[style$="cursor: pointer"]{
+    color: green;
+}
+/* -----------END---------*/

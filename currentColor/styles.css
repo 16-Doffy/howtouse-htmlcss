@@ -1,0 +1,31 @@
+body {
+  padding: 15px;
+  background-color: #eceef0;;
+  font-size: 20px;
+}
+.boxed{
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:rgb(4, 52, 116);
+  position: relative;
+  /*current color lấy theo giá trị thuộc tính color(mặc d9nh5 màu đen)*/
+}
+.boxed::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  opacity: 0.1;
+  background-color: currentColor;
+}
+
+/*inherit; kế thửa*/
+/*currentColor; lấy theo giá trị thuộc tính color của class cha*/

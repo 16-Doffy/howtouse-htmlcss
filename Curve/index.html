@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Curve(bo góc) </title>
+</head>
+<body>
+ <ul class="menu">
+    <li class="menu-item active">
+        <ion-icon name="home-outline"></ion-icon>
+        <span>Dashboard</span>
+    </li>
+    <li class="menu-item">
+        <ion-icon name="person-add-outline"></ion-icon>
+        <span>Customer</span>
+    </li>
+    <li class="menu-item">
+        <ion-icon name="bar-chart-outline"></ion-icon>
+        <span>Repost</span>
+    </li>
+ </ul>
+<script>
+    const menuItems = document.querySelectorAll('.menu-item');
+    menuItems.forEach(item => {
+        item.addEventListener('click', function() {
+            menuItems.forEach(i => i.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+</script>
+</body>
+</html>

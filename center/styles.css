@@ -1,0 +1,16 @@
+.position{
+    width: 500px;
+    height: 500px;
+    background: red;
+    position: relative;
+}
+.box{
+    
+    background: blue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    /* margin-top: -50px;
+    margin-left: -50px; */
+    transform: translate(-50%,-50%);
+}

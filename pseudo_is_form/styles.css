@@ -1,0 +1,20 @@
+body{
+    padding: 20px;
+    font-size: 17px;
+}
+/* .article :is(.h1 , .h2 ,.h3){
+    color: rgb(13, 15, 24);
+} */
+/* .article :is(.h1 , .h2 ,.h3):hover{
+    color: blueviolet;
+} */
+
+.article :where(.h1 , .h2, .h3){
+    color: rgb(216, 16, 76);
+}
+.h1 {
+    color: green;
+}
+
+/* d9e2 code dùng where / ko đè thì dùng is
+} */

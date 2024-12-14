@@ -1,0 +1,37 @@
+body{
+    padding: 20px;
+}
+.form-input{
+    padding: 20px;
+    border: 1px solid #060479;
+    border-radius: 4px;
+    width: 80%;
+    height: 50px;
+    padding: 0 20px;
+    transform: 0.25s ease;
+}
+.form-input:focus{
+    border-color: blue;
+}
+.form-field{
+    position: relative;
+}
+.form-label{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 21px;
+    user-select: none;
+    color: #999;
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+.form-input:not(:placeholder-shown) +.form-label,
+.form-input:focus + .form-label {
+    top: 0px;
+    padding: 12px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    color: #060479;
+}
+/*placeholder-shown*/

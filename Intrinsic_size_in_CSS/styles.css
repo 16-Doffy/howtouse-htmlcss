@@ -1,0 +1,17 @@
+.button{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    display: block;
+    padding: 20px;
+    margin: 30px auto;
+    background-color: #150061;
+    width: fit-content;
+}
+a button{
+    text-decoration: none;
+    list-style: none;
+}
+/* min-content; lấy độ rộng của chữ dài nhất vd:demo a, chữ a sẽ rớt xuống*/
+/* max-content; lấy độ rộng của full content*/
+/* fit-content; sẽ xuống hàng nếu content quá dài*/
