@@ -1,0 +1,131 @@
+body {
+  padding-left: 50px;
+  background-color: #f2f4f7;
+  font-size: 20px;
+  display: flex;
+}
+.cards{
+
+  display: flex; 
+  flex-wrap: wrap;
+  --spacing:100px;
+  --columns:4;
+}
+.card{ 
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: wheat;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  width: calc(calc(100% / var(--columns))- var(--spacing));
+  margin-left:  var(--spacing);
+}
+.card-img{
+  flex-shrink: 0;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.card-content{
+  padding: 25px;
+  flex: 1;
+  flex-direction: column;
+}
+.card-title{
+  font-weight: 500;
+  margin-bottom: 25px;
+  word-break: break-word;
+  text-overflow: ellipsis;
+}
+.card-user{
+  display: flex;
+  align-items: center;
+}
+.card-user-avatar{
+width: 40px;
+height: 40px;
+border-radius: 100rem;
+object-fit: cover;
+flex-shrink: 1;
+}
+.card-user-avatar span{
+  align-items: center;
+  justify-content: center;
+}
+.card-user-infor{
+padding-left: 20px;
+flex: 1;
+}
+.card-user-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-user-name{
+  display: flex;
+font-weight: 500;
+font-size: 14px;
+line-height: 1;
+color: rgb(3, 58, 105);
+}
+.card-user-game{
+margin-right: 100px;
+  color: rgb(3, 58, 105);
+  font-weight: 300;
+  font-size: 20px;
+  font-weight: 500;
+}
+.card-user-top ion-icon{
+  display: flex;
+  color: blue;
+}
+.card-bottom{
+margin-top: auto;  
+border-top: 1px solid white;
+display: flex;
+
+}
+.card-live{
+  color: rgb(31, 1, 1);
+  display: flex;
+ 
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.card-watching{
+  color: rgb(31, 1, 1);
+  display: flex;
+  margin-left: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.card-content{
+  background-color: rgb(243, 237, 237);
+}
+.card-top{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.card-user,
+.card-bottom{
+  margin-top: auto;
+  flex-shrink: 0;
+} 
+/*dien thoai*/
+@media screen and (max-width: 767px){
+  .cards{
+    --spacing:15px;
+    --columns:1;
+  }
+  /*dien thoai*/
+}
+@media screen and (max-width: 1023){
+  .cards{
+    --spacing:15px;
+    --columns:2;
+  }
+  
+}

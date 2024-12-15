@@ -1,0 +1,41 @@
+body {
+  padding: 15px;
+  background-color: #f2f4f7;
+  font-size: 20px;
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgb(12, 3, 145);
+  box-shadow: 0 0 12px rgb(62, 2, 173);
+}
+
+.avatar:not(:first-child) {
+  margin-left: -10px; 
+}
+
+.avatar-number {
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+ 
+  box-shadow: 0 0 2px white;
+  color: rgb(12, 3, 145);
+  
+}
+
+.avatars span {
+  margin-left: 10px; /* Khoảng cách giữa các avatar và chữ */
+}
