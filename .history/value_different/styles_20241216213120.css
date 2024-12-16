@@ -1,0 +1,7 @@
+.container{
+    color: orange;
+}
+.one{
+    color: inherit;
+    /*kế thừa từ ptu cha, nếu ptu cha không có thì sẽ chạy sang ộng nội ex: one<-container<-body*/
+}

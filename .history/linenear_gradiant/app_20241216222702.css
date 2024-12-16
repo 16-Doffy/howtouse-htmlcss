@@ -1,0 +1,28 @@
+.boxed{
+  height: 200px;
+  background-image: linear-gradient(to right,#002470 15%,#0451f7 );
+}
+.images{
+  max-width: 1000px;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  position: relative;
+}
+.images::before{
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: rgb(23, 5, 105);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.img-item{
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}

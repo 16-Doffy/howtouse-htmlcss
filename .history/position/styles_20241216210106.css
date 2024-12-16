@@ -1,0 +1,32 @@
+body{
+    padding: 20px;
+}
+.wrapper{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+}
+.boxed{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 7, 209);
+    position: absolute;;
+    /* left: 50%; */
+    /* transform:  translateX(-50%); 
+    display: inline-block; */
+    /* position: relative; */
+    /* left: 50%;
+    transform: translateX(-50%); */
+}
+.boxed2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(68, 7, 209);
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+.box21{
+    z-index: 2;
+}

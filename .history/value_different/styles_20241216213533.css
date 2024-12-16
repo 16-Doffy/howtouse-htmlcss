@@ -1,0 +1,19 @@
+.container{
+   
+    border-radius: 10px;
+}
+.one{
+    color: inherit;
+    border-radius: inherit;
+    /*kế thừa từ ptu cha, nếu ptu cha không có thì sẽ chạy sang ộng nội ex: one<-container<-body*/
+}
+.two{
+    /*lấy gtri theo trình duyệt(initial:black)*/
+    color: initial;
+}
+.three{
+    /*inherit or initial*/
+    /*inherit:: xảy ra khi mà lớp cha có trủng thuộc tính */
+     /*initial:: xảy ra khi mà lớp cha ko có trủng thuộc tính thì nó sẽ lấy theo trình duyệt */
+    color: unset;
+}
