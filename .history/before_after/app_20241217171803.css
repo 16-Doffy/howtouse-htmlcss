@@ -1,0 +1,22 @@
+body{
+  padding: 20px;
+  font-size: 20px;
+}
+.heading span{
+  user-select: none;
+  /*ko cho phép bôi đen*/
+
+}
+/* .heading::before{
+  content: "Name";
+}
+.heading::after{
+  content: " developer";
+} */
+.before{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: red;
+}

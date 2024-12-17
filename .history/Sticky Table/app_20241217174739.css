@@ -1,0 +1,11 @@
+table{
+  width: 100%;
+}
+table th, table td{
+  padding: 15px  30px;
+  text-align: left;
+}
+table th{
+  color: rgb(90, 0, 235);
+  font-weight: 600;
+}
