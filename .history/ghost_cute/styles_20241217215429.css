@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.ghost {
+    width: 100px;
+    height: 120px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 50% 50% 0 0;
+    position: relative;
+    animation: ghost 1.5s ease-in-out alternate infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ghost::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(50%);
+    border-radius: 0 0 50% 50%;
+    background-color: white;
+    box-shadow: 20px 0 0 white, 40px 0 0 white, 60px 0 0 white, 80px 0 0 white;
+}
+
+.ghost-eyes {
+    display: flex;
+    gap: 10px;
+}
+
+.ghost-eye {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ghost-eye::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+.ghost-lip {
+    width: 60px;
+    height: 15px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 0 0 50% 50%;
+    margin-top: 10px;
+}
+
+@keyframes ghost {
+    to {
+        transform: translateY(10px);
+    }
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CALC</title>
+</head>
+
+<body>
+    <!--Caculator--->
+    <!-- <div class="text">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, nobis ullam molestiae harum, nostrum exercitationem earum corporis itaque odit, fugiat necessitatibus officiis ducimus? Ipsam voluptate nemo hic, fugiat expedita minima.
+   </div> -->
+    <!-- <div class="layout">
+        <div class="img">
+            <img src="../img/hot9.jpg" alt="">
+        </div>
+
+        <div class="content">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt in mollitia molestiae deleniti laborum,
+            sunt natus, laudantium quod ducimus architecto quis at totam dignissimos officia veniam nisi! In, blanditiis
+            dolores!
+        </div>
+    </div> -->
+<style>
+  .flex-layout {
+    --columns: 3;
+    --spacing: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: var(-1 * var(--spacing));
+    margin-bottom: var(-1 * var(--spacing));
+  }
+  .flex-item {
+    width: calc(100% / var(--columns) - var(--spacing));
+    margin-left: var(--spacing);
+    margin-bottom: var(--spacing);
+  }
+  .flex-image {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+</style>
+<div class="flex-layout">
+  <div class="flex-item">
+    <img
+      src="../img/hot1.jpg"
+      alt=""
+      class="flex-image"
+    />
+  </div>
+  <div class="flex-item">
+    <img
+    src="../img/hot2.jpg"
+      alt=""
+      class="flex-image"
+    />
+  </div>
+  <div class="flex-item">
+    <img
+    src="../img/hot3.jpg"
+      alt=""
+      class="flex-image"
+    />
+  </div>
+  <div class="flex-item">
+    <img
+    src="../img/hot4.jpg"
+      alt=""
+      class="flex-image"
+    />
+  </div>
+  <div class="flex-item">
+    <img
+    src="../img/hot9.jpg"
+      alt=""
+      class="flex-image"
+    />
+  </div>
+  <div class="flex-item">
+    <img
+    src="../img/hot8.jpg"
+      alt=""
+      class="flex-image"
+    />
+  </div>
+</div>
+</body>
+
+</html>

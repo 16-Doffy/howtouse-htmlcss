@@ -1,0 +1,16 @@
+.star{
+    margin:0 auto;
+   width: 30%;
+   height: 30%;
+    background-color: #0018a0;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    
+}
+img{
+background-size: cover;
+  width: 100%;
+  
+}
+body{
+    padding-left: 50px;;
+}

@@ -1,0 +1,12 @@
+.ghost{
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    margin: 25px;
+    border-radius: 100rem 100rem 0 0;
+    position: relative;
+}
+.ghost::before{
+    content: "";
+    
+}

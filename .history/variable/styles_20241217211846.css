@@ -1,0 +1,14 @@
+body{
+  font-size: 50px;
+}
+:root{
+  --primary: #2f6cf0;
+}
+.item1, 
+.item2 {
+  color: var(--primary);
+}
+.list{
+  /*local variable(gần class cha nhất sẽ kế thừa ex item1)*/
+  --primary: #1fd607;
+}
