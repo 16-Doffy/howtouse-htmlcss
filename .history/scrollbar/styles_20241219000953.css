@@ -1,0 +1,20 @@
+body{
+  height: 500vh;
+}
+
+body::-webkit-scrollbar{
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: blue;
+  border-radius: 10px;
+  width: 10px;
+  background-image: linear-gradient(to  bottom, green,purple);
+  /*thanh bên phải ở trên để kéo */
+}
+
+body::-webkit-scrollbar-track{
+  background-color: rgb(133, 121, 121);
+  border-radius: 100rem;
+  /*thanh bên phải ở dưới */
+}

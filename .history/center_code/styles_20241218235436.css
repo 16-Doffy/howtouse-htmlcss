@@ -1,0 +1,18 @@
+.boxed{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  display: inline-block;
+  position: relative;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+.boxed-parent{
+
+}
+.button{
+  padding: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: pink;
+}

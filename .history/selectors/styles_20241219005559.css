@@ -1,0 +1,18 @@
+/*Main code*/
+body{
+  font-family: serif;
+}
+main p {
+  color: blue;
+}
+:where(div, article ,section, main) p {
+  font-style: italic;
+  margin-bottom: 2.5rem;
+  color: orange;
+   /*độ ưu tiên thấp*/
+}
+/* :is(div, article ,section, main) p {
+  font-style: italic;
+  margin-bottom: 2.5rem;
+  color: orange;
+  /*độ ưu tiên cao*/

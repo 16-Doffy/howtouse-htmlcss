@@ -1,0 +1,12 @@
+.boxed{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, 0);
+}
+.boxed-parent{
+  text-align: center;
+}

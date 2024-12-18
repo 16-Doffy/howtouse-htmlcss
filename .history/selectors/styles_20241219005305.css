@@ -1,0 +1,8 @@
+/*Main code*/
+body{
+  font-family: serif;
+}
+:where(div, article ,section, main) p {
+  font-style: italic;
+  margin-bottom: 5.5rem;
+}

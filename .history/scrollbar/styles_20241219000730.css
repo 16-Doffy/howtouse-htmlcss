@@ -1,0 +1,14 @@
+body{
+  height: 500vh;
+}
+
+body::-webkit-scrollbar{
+  width: 100px;
+}
+body::-webkit-scrollbar-thumb{
+  
+}
+
+body::-webkit-scrollbar-track{
+  background-color: red;
+}

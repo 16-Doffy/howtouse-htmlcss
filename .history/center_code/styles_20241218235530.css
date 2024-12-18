@@ -1,0 +1,21 @@
+.boxed{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  display: inline-block;
+  position: relative;
+  transform: translate(-50%, -50px);
+  
+}
+.boxed-parent{
+  text-align: center;
+}
+.button{
+  padding: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(17, 0, 0);
+  background-color: pink;
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+}

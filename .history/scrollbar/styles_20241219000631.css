@@ -1,0 +1,7 @@
+body{
+  height: 500vh;
+}
+
+body::-webkit-scrollbar{
+  width: 100px;
+}
