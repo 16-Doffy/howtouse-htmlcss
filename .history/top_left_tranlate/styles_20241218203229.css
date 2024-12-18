@@ -1,0 +1,23 @@
+body{
+  background-color: black;
+}
+.wrapper{
+  width: 500px;
+  height: 500px;
+  background-color: white;
+}
+.boxed{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* position: relative;
+  left: 50px;
+  top: 50px; */
+  /* transform: translate(50px, 50px); */
+  position: relative;
+   left: 50%; 
+  /* transform: translate(50%,50%); */
+  /*50% ? = 50px
+  transform: translateX(50px)
+  */
+}

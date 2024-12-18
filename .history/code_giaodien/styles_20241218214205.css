@@ -1,0 +1,9 @@
+.button {
+  display: inline-block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  outline: none;
+  border: none;
+  color: rgb(226, 0, 0);
+  padding: 15px 30px;
+  background-color: #450570;
+}

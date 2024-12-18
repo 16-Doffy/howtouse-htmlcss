@@ -1,0 +1,9 @@
+
+.shape{
+  padding: 20px;
+  /* width: 200px; */
+  min-width: 200px;
+  background: black;
+  color: white;
+  display: block;
+}

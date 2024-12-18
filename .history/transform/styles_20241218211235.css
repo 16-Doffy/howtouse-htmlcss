@@ -1,0 +1,10 @@
+body{
+ background-color: black;
+  padding: 20px;
+}
+
+.quare{
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}

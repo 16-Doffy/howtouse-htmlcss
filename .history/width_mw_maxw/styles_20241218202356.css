@@ -1,0 +1,17 @@
+
+body{
+  background-color: black;
+}
+.shape{
+  padding: 20px;
+  /* width: 200px; */
+  /* min-width: 200px; */
+  max-width: 300px;
+  background-color: rgb(3, 5, 102);
+  color: white;
+  display: block;
+}
+/* .shape-parent{
+  width: 500px;
+  display: block;
+} */

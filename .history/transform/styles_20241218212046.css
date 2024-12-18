@@ -1,0 +1,34 @@
+body{
+ background-color: black;
+  padding: 20px;
+}
+
+.quare{
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  position: relative;
+  transform: rotate(45deg);
+  transform-origin: top-left;
+  animation: bounce 1s alternate ;
+}
+
+
+.point{
+width: 20px;
+height: 20px;
+border-radius: 100rem;
+background-color: purple;
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
+@keyframes bounce{
+  to{
+    transform: rotate(-45deg);
+  }
+  to{
+    transform: rotate(45deg);
+  }
+}

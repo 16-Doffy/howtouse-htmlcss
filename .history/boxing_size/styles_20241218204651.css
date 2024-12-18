@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  padding: 20px;
+}
+.boxed{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  box-sizing: content-box;
+  border: 5px solid rgb(240, 233, 233);
+  box-sizing: border-box;
+}
+/*use border-box = về đúng thiết kế*/
+
+.button{
+  display: inline-block;
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}

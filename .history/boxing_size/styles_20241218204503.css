@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+}
+.boxed{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  box-sizing: content-box;
+  border: 5px solid rgb(240, 233, 233);
+  box-sizing: border-box;
+}
+
+/*use border-box = về đúng thiết kế*/

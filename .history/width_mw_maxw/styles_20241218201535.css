@@ -1,0 +1,10 @@
+
+.shape{
+  padding: 20px;
+  /* width: 200px; */
+  /* min-width: 200px; */
+  max-width: 300px;
+  background: black;
+  color: white;
+  display: block;
+}

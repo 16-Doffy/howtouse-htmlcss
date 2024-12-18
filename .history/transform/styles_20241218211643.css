@@ -1,0 +1,26 @@
+body{
+ background-color: black;
+  padding: 20px;
+}
+
+.quare{
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  position: relative;
+  /* transform: rotate(45deg); */
+  transform-origin: position: absolute;
+  bottom: 0;
+  right: 0;;
+}
+.point{
+width: 20px;
+height: 20px;
+border-radius: 100rem;
+background-color: purple;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+
+}
