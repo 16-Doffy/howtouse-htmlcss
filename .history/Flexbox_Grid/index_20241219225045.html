@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .box-item {
+            width: 100%;
+            padding-top: 100%; /* Tỷ lệ 1:1 để tạo hình vuông */
+            position: relative;
+        }
+
+        .box-content {
+            display: flex;
+            position: absolute;
+          
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <title>Flexbox hay Grid</title>
+</head>
+
+<body class="p-5">
+    <div class="pt-40"></div>
+    <div class="grid grid-cols-2 gap-8 w-full max-w-[570px] mx-auto">
+        <div class="box-item">
+            <div class="box-content">Colabb</div>
+        </div>
+        <div class="box-item">
+            <div class="box-content">Colabb</div>
+        </div>
+        <div class="box-item">
+            <div class="box-content">Colabb</div>
+        </div>
+        <div class="box-item">
+            <div class="box-content">Colabb</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Radial-gradient </title>
+</head>
+
+<body>
+    <!-- <style>
+        .boxed {
+            width: 200px;
+            height: 100px;
+            /* background: radial-gradient(circle at 100% 50%, rgb(22, 8, 223) 0%, rgb(15, 15, 0) 100%); */
+            background: radial-gradient(50% 50% at right, blue 30%, gray 70%);
+            margin: 0 auto;
+        }
+    </style>
+    <div class="boxed"> -->
+    <style>
+        html {
+            --s: 150px;
+            --c1: #20E3B2;
+            --c2: #0a0000;
+            background: radial-gradient(50% 50% at top right,
+             var(--c1) 0 5%, 
+             var(--c2) 6% 15%,
+             var(--c1) 16% 26%,
+             var(--c2) 26% 35%,
+             var(--c1) 36% 45%, 
+             var(--c2) 46% 54%,
+             /* var(--c1) 55% 64%,
+             var(--c2) 65% 74%,
+             var(--c1) 75% 84%,  */
+           
+               );
+            background-size: var(--s) var(--s);
+            background-repeat: no-repeat;
+            ;
+        }
+    </style>
+    </div>
+</body>
+
+</html>

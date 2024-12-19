@@ -1,0 +1,71 @@
+.box-1 {
+    --mask: linear-gradient(#000 0 0) center/calc(100% - 60px) calc(100% - 60px)
+        no-repeat,
+      conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) 0 0/60px
+        30px space no-repeat,
+      conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 0
+        100%/60px 30px space no-repeat,
+      conic-gradient(from 45deg at left, #0000, #000 1deg 89deg, #0000 90deg) 0 0/30px
+        60px no-repeat space,
+      conic-gradient(from -135deg at right, #0000, #000 1deg 89deg, #0000 90deg)
+        100% 0/30px 60px no-repeat space;
+  
+    display: inline-block;
+    width: 320px;
+    aspect-ratio: 1;
+    background: linear-gradient(
+      135deg,
+      #1f005c,
+      #5b0060,
+      #870160,
+      #ac255e,
+      #ca485c,
+      #e16b5c,
+      #f39060,
+      #ffb56b
+    );
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+  }
+  
+  .box-2 {
+    --mask: linear-gradient(#000 0 0) center/calc(100% - 60px) calc(100% - 60px)
+        no-repeat,
+      conic-gradient(from 135deg at top, #0000, #000 1deg 89deg, #0000 90deg) 0 0/60px
+        30px repeat-x,
+      conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 0
+        100%/60px 30px repeat-x,
+      conic-gradient(from 45deg at left, #0000, #000 1deg 89deg, #0000 90deg) 0 0/30px
+        60px repeat-y,
+      conic-gradient(from -135deg at right, #0000, #000 1deg 89deg, #0000 90deg)
+        100% 0/30px 60px repeat-y;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+  
+    display: inline-block;
+    width: 320px;
+    aspect-ratio: 1;
+    background: linear-gradient(
+      135deg,
+      #1f005c,
+      #5b0060,
+      #870160,
+      #ac255e,
+      #ca485c,
+      #e16b5c,
+      #f39060,
+      #ffb56b
+    );
+  }
+  
+  /* Presentational styles */
+  body {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    background: linear-gradient(90deg,#ddd,#fff);
+  }
+  
+  h2 {
+    text-align: center;
+  }

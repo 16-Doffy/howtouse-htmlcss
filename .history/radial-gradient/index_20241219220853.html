@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Radial-gradient </title>
+</head>
+
+<body>
+    <!-- <style>
+        .boxed {
+            width: 200px;
+            height: 100px;
+            /* background: radial-gradient(circle at 100% 50%, rgb(22, 8, 223) 0%, rgb(15, 15, 0) 100%); */
+            background: radial-gradient(50% 50% at right, blue 30%, gray 70%);
+            margin: 0 auto;
+        }
+    </style>
+    <div class="boxed">-->
+        <style>
+            html {
+                --s: 200px;
+                --c1: #20E3B2;
+                --c2: #0a0000;
+                --g: var(--c1) 0 5%, 
+                    var(--c2) 6% 15%, 
+                    var(--c1) 16% 25%, 
+                    var(--c2) 26% 35%, 
+                    var(--c1) 36% 45%, 
+                    var(--c2) 46% 54%, 
+                    var(--c1) 55% 64%, 
+                    var(--c2) 65% 74%, 
+                    var(--c1) 75% 84%, 
+                    var(--c2) 85% 94%, 
+                    rgb(235, 230, 230) 96%;
+    
+                    background:
+    radial-gradient(50% 50% at top right, var(--c1), var(--c2)),
+    radial-gradient(50% 50% at bottom left, rgba(32, 227, 178, 0.5), rgba(10, 0, 0, 0.5)),
+    radial-gradient(50% 50% at center, rgba(32, 227, 178, 0.5), rgba(10, 0, 0, 0.5))
+                    calc(var(--s) /2 ) calc(var(--s) /2),
+                    
+                    linear-gradient(45deg, var(--c1), var(--c1)) ; /* Gradient 3 */
+
+                background-size: var(--s) var(--s);
+                    background-repeat: no-repeat;
+            }
+        </style>
+    
+   
+</body>
+
+</html>
