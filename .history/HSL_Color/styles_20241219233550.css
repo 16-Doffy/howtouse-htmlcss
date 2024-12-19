@@ -1,0 +1,18 @@
+body{
+    padding: 20px;
+}
+.boxed-list{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+.boxed-item{
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: hsla(221, 92%, 35%, 0.274);
+    border-radius: 12px;
+    /*h =hue
+    s=saturation
+    l=lightness
+    */
+}

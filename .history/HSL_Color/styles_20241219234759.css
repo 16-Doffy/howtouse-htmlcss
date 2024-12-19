@@ -1,0 +1,36 @@
+:root {
+    --primary-s: 100%;  /* Set saturation to 100% for visible color */
+    --primary-h: 221;   /* Hue value */
+    --primary-l: 50%;   /* Lightness */
+}
+
+body {
+    padding: 20px;
+}
+
+.boxed-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.boxed-item {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: hsla(0, 96%, 46%, 0.568); /* This is a different color for demonstration */
+    border-radius: 12px;
+}
+
+.boxed-primary {
+    background-color: hsl(var(--primary-h), var(--primary-s), var(--primary-l));  /* Use updated CSS variables */
+}
+
+.boxed-shade1 {
+    --primary-l: 52%;
+}
+/*chỉ cần đổi biến từ root và kéo vào class muốn đổi*/
+.boxed-shade9{
+    
+    --primary-h: 0;  
+    
+}

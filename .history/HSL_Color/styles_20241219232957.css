@@ -1,0 +1,9 @@
+.boxed-list{
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+.boxed-item{
+    width: 10px;
+    aspect-ratio: 1;
+}
