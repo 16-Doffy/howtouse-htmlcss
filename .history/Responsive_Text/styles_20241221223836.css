@@ -1,0 +1,11 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.boxed{
+    height: 200px;
+    width: 200px;
+    background-color: background-image: linear-gradient(to right, blue,green );;
+}

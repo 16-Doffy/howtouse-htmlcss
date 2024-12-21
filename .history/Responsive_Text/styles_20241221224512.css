@@ -1,0 +1,21 @@
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+.boxed{
+    height: 200px;
+    /* width: 200px; */
+    /*width: min-value*/
+    width: max(500px,100%);
+    /* width: min(200px, 100%); */
+    background-image: linear-gradient( to right,blue ,green );;
+    border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+    .boxed{
+        width: 100%;
+    }
+    
+}
